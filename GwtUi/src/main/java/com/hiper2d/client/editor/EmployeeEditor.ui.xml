@@ -1,0 +1,19 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui='urn:ui:com.google.gwt.uibinder'
+             xmlns:g='urn:import:com.google.gwt.user.client.ui'>
+    <ui:with field="msg" type="com.hiper2d.client.message.Messages"/>
+    <ui:with field="res" type="com.hiper2d.client.resourcebundle.Resources"/>
+
+    <g:HTMLPanel>
+        <g:FlowPanel addStyleNames="{res.basic.employeeEditorWraper}">
+            <g:FlowPanel>
+                <g:Label addStyleNames="{res.basic.employeeLabel}"/>
+                <g:TextBox ui:field="employeeName" addStyleNames="{res.basic.employeeNameText}" maxLength="30" visibleLength="30"/>
+            </g:FlowPanel>
+            <g:FlowPanel>
+                <g:Label addStyleNames="{res.basic.employeeLabel}"/>
+                <g:TextBox ui:field="employeeTitle" addStyleNames="{res.basic.employeeNameText}" maxLength="30" visibleLength="30"/>
+            </g:FlowPanel>
+        </g:FlowPanel>
+    </g:HTMLPanel>
+</ui:UiBinder>

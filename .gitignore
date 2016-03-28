@@ -1,0 +1,7 @@
+*.iml
+GwtUi/*.iml
+GwtUi/targe
+Shared/*.iml
+Shared/target
+Spring/target
+Spring/*.iml

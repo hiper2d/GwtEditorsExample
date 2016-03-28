@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="GwtUi:war">
+    <output-path>$PROJECT_DIR$/GwtUi/target</output-path>
+    <root id="archive" name="ui-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="GwtUi:war exploded" />
+    </root>
+  </artifact>
+</component>
